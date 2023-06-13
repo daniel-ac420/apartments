@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Бронирование квартиры</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/general_style.css">
+    <link rel="stylesheet" href="css/form_style.css">
+</head>
+<body>
+    <div id='grey_background'>
+        <div class="header">
+            <div class="wrapper">
+
+                <div class='menu'>
+
+                    <ul class='navigation'>
+                        <li class='home'><a href='index.html'><img src="images/logos/logo.svg" alt="Главная страница"></a></li>
+                        <li><a href=''>Квартиры</a></li>
+                        <li><a href=''>Отзывы</a></li>
+                        <li><a href=''>О компании</a></li>
+                    </ul>
+
+                    <ul class='phone'>
+                        <li>
+                            <img src="images/logos/icon-phone.png" alt="Телефон">
+                            8 (905) 255-00-10
+                        </li>
+
+                        <li>
+                        <form action="">
+                            <a href=''>Перезвоните мне</a>
+                        </form>
+                        </li>
+                    </ul>
+
+                </div>            
+            </div>
+        </div>
+        
+        <div class="wrapper">
+            <h1>2-комнатная квартира, 10-я линия В.О., 57</h1>
+
+            <div class='about_room'>
+                <div class='rooms_photo'>
+                    <div class='main_photo'><a href=''><img src='images/form/photos/01.png' alt='Фото квартиры'></a></div>
+                    
+                    <div class='other_photo_block'>
+                        <div class='other_photo'><a href=''><img src='images/form/photos/02.png' alt='Фото квартиры'></a></div>
+                        <div class='other_photo'><a href=''><img src='images/form/photos/03.png' alt='Фото квартиры'></a></div>
+                    </div>
+                    <div class='other_photo_block'>
+                        <div class='other_photo'><a href=''><img src='images/form/photos/04.png' alt='Фото квартиры'></a></div>
+                        <div class='other_photo'><a href=''><img src='images/form/photos/05.png' alt='Фото квартиры'></a></div>
+                    </div>
+                </div>
+
+                <div class='description'>
+                    <p class='price'>Цена/сутки:</p>
+                    <p>12000₽</p>
+                    <div class='booking_button'><a href=''>Забронировать</a></div>
+                    <p class='text'>Двухкомнатная квартира-студия класса люкс<br> расположена на четвертом этаже шестиэтажного дома.  Во дворе охраняемая парковка. Ресторан и кафе на первом этаже дома.</p>
+
+                    <div class='horizontal_line'></div>
+
+                    <div class='count'>
+                        <div class='guests'>
+                            <img src='images/apartments/icons/icon-guests.png' alt='Количество гостей'>
+                            <p>5 гостей</p>
+                        </div>
+
+                        <div class='capacity'>
+                            <img src='images/apartments/icons/icon-beds.png' alt='Количество спальных мест'>
+                            <p>6 спальных мест</p>
+                        </div>
+                    </div>
+
+                    <div class='horizontal_line'></div>
+
+                    <div class='comfort'>
+                        <img src='images/form/icons/check.png' alt='Удобства'>
+                        <p>Кабельное ТВ, игровая консоль, WiFi</p>
+                    </div>
+
+                    <div class='horizontal_line'></div>
+
+                    <div class='comfort'>
+                        <img src='images/form/icons/check.png' alt='Удобства'>
+                        <p>Фен, утюг, гладильная доска, предметы гигиены,<br> фильтр для воды, кофемашина, чай, печенье</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class='clearfix'></div>
+
+            <div class='map'>
+                <img src='images/form/map/map.png' alt='Местоположение'>
+            </div>
+
+            <div class='booking'>
+                <h2>Забронировать квартиру</h2>
+
+                <div class='booking_block'>
+                    <div class='calendar'></div>
+                    
+                    <div class='personal_data'>
+                        <h3>Оставить заявку</h3>
+                        
+                        <div class='calendar_header'>
+                            <div>
+                                <p>Заселение и выезд</p>
+                                <div class='arrival'>
+                                    <div><a href=''>20 ноября 2018</a>
+                                        <img class='calendar_picture' src='images/apartments/icons/icon-calendar.png' alt='Календарь'>
+                                    </div>
+                                    <div class='time'>
+                                        в 12:00
+                                    </div>
+                                    <div id='timeline'></div>
+                                    <div class='departure'><a href=''>21 ноября 2018</a>
+                                        <img class='calendar_picture' src='images/apartments/icons/icon-calendar.png' alt='Календарь'>
+                                    </div>
+                                    <div class='time'>
+                                        в 12:00
+                                     <!--    <form action='' method='post'>
+                                            <input type='time' name='arrival_time'
+                                        </form>
+                                    -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                            <form class='personal_name' action="" method="post">
+                                <label>Имя*
+                                <input type='text' name='name'>
+                                </label>
+                            </form>
+                            
+                        <div id='phone_email'>
+                            <form class='personal_phone' action="" method="post">
+                                <label>Телефон*
+                                <input type='text' name='phone' placeholder="+7 (---) --- -- --"></label>
+                            </form>
+                            
+                            <form class='personal_email' action="" method="post">
+                                <label>E-mail
+                                <input type='email' name='e-mail'></label>
+                            </form>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class='booking_button'><a href=''>Забронировать</a></div>
+        </div>
+    </div>     
+        
+        <div class="footer">
+            <div class="wrapper">
+
+                <div class='menu footer_menu'>
+
+                    <ul class='navigation'>
+                        <li class='home'><a  href='index.html'><img src="images/logos/logo.svg" alt="Главная страница"></a></li>
+                        <li><a href=''>Квартиры</a></li>
+                        <li><a href=''>Отзывы</a></li>
+                        <li><a href=''>О компании</a></li>
+                    </ul>
+
+                    <div class='adress'>
+                        <img src='images/logos/icon-mapmarker.png' alt='Местоположение'>
+                        <p>Санкт-Петербург, набережная реки<br>Мойки, дом 40, литер «А», офис 210</p>
+                    </div>
+
+                    <div class='connect'>
+                        <ul class='phone'>
+                            <li>
+                                <img src="images/logos/icon-phone.png" alt="Телефон">
+                                8 (905) 255-00-10
+                            </li>
+                        </ul>
+
+                        <ul class='s_network'>
+                            <li><a href=''><img src='images/footer-icons/icon-mail.png'></a></li>
+                            <li><a href=''><img src='images/footer-icons/icon-vk.png'></a></li>
+                            <li><a href=''><img src='images/footer-icons/icon-facebook.png'></a></li>
+                            <li><a href=''><img src='images/footer-icons/icon-inst.png'></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div id='line'>
+                </div>
+
+                <div class='rules'>
+                    <ul>
+                        <li><a href=''>Лицензионный договор</a></li>
+                        <li><a href=''>Правила использования</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
